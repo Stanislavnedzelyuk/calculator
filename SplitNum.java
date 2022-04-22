@@ -40,7 +40,5 @@ public class SplitNum {
         else {
             throw new Exception("Неверный ввод!");
         }
-
-
     }
 }

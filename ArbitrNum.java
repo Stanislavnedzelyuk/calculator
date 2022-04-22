@@ -29,8 +29,5 @@ public class ArbitrNum {
                 return type;
             }
         }
-
-
-
     }
 }
