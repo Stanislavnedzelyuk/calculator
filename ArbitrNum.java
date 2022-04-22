@@ -7,7 +7,7 @@ public class ArbitrNum {
         int rc = 0;
         try {
             num = Integer.parseInt(val);
-            if(num >= 0 && num <= 10){
+            if(num > 0 && num <= 10){
                 type = "A";
                 return type;
             }else {
@@ -21,7 +21,7 @@ public class ArbitrNum {
                     break;
                 }
             }
-            if(rc == 0){
+            if(rc != 0){
                 throw new Exception("Неверный ввод!");
             }
             else{
